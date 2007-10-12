@@ -15,6 +15,7 @@ Source:         http://www.cpan.org/modules/by-module/IPC/%{module}-%{version}.t
 Buildrequires:  perl-devel
 %endif
 Buildrequires:  perl(Module::Load::Conditional)
+Buildrequires:  perl-version
 Buildarch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
