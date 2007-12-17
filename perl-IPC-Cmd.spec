@@ -17,7 +17,6 @@ Buildrequires:  perl-devel
 Buildrequires:  perl(Module::Load::Conditional)
 Buildrequires:  perl-version
 Buildarch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 IPC::Cmd allows you to run commands, interactively if desired, platform
