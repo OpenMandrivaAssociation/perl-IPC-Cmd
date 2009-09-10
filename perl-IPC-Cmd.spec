@@ -1,5 +1,5 @@
 %define upstream_name    IPC-Cmd
-%define upstream_version 0.46
+%define upstream_version 0.50
 
 Name:           perl-%{upstream_name}
 Version:        %perl_convert_version %{upstream_version}
@@ -9,13 +9,14 @@ Summary:        Finding and running system commands made easy
 License:        GPL+ or Artistic
 Group:          Development/Perl
 Url:            http://search.cpan.org/dist/%{upstream_name}
-Source0:        http://www.cpan.org/modules/by-module/IPC/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:        http://www.cpan.org/modules/by-module/IPC/%{upstream_name}-%{upstream_version}.tar.gz
 
 %if %{mdkversion} < 1010
 Buildrequires:  perl-devel
 %endif
 Buildrequires:  perl(Module::Load::Conditional)
-Buildrequires:  perl-version
+Buildrequires:  perl(version)
+
 Buildarch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
