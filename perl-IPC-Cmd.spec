@@ -3,7 +3,7 @@
 
 Name:           perl-%{upstream_name}
 Version:        %perl_convert_version %{upstream_version}
-Release:        %mkrel 1
+Release:        %mkrel 2
 
 Summary:        Finding and running system commands made easy
 License:        GPL+ or Artistic
@@ -37,7 +37,7 @@ settings.
 %make
 
 %check
-%{__make} test
+%make test
 
 %install
 rm -rf %{buildroot}
