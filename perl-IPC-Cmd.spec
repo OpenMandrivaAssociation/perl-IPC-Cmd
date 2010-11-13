@@ -1,9 +1,9 @@
 %define upstream_name    IPC-Cmd
-%define upstream_version 0.60
+%define upstream_version 0.64
 
 Name:           perl-%{upstream_name}
 Version:        %perl_convert_version %{upstream_version}
-Release:        %mkrel 3
+Release:        %mkrel 1
 
 Summary:        Finding and running system commands made easy
 License:        GPL+ or Artistic
