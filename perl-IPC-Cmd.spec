@@ -3,7 +3,7 @@
 
 Name:           perl-%{upstream_name}
 Version:        %perl_convert_version %{upstream_version}
-Release:        %mkrel 1
+Release:        %mkrel 2
 
 Summary:        Finding and running system commands made easy
 License:        GPL+ or Artistic
@@ -11,9 +11,7 @@ Group:          Development/Perl
 Url:            http://search.cpan.org/dist/%{upstream_name}
 Source0:        http://www.cpan.org/modules/by-module/IPC/%{upstream_name}-%{upstream_version}.tar.gz
 
-%if %{mdkversion} < 1010
 Buildrequires:  perl-devel
-%endif
 Buildrequires:  perl(Module::Load::Conditional)
 Buildrequires:  perl(version)
 
