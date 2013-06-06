@@ -1,2 +1,4 @@
+removed_sources:
+  IPC-Cmd-0.64.tar.gz: 555c3a80290b5082e6b8ad2f3888407b74fa755b
 sources:
-  "IPC-Cmd-0.64.tar.gz": 555c3a80290b5082e6b8ad2f3888407b74fa755b
+  IPC-Cmd-0.80.tar.gz: e2c2ec9dadbedf78a084fab30b69ac1404dc9c1c
