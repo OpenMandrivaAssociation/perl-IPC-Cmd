@@ -1,14 +1,14 @@
 %define upstream_name    IPC-Cmd
-%define upstream_version 0.82
+%define upstream_version 0.84
 Name:           perl-%{upstream_name}
-Version:        %perl_convert_version 0.82
+Version:        %perl_convert_version %{upstream_version}
 Release:        1
 
 Summary:        Finding and running system commands made easy
 License:        GPL+ or Artistic
 Group:          Development/Perl
 Url:            http://search.cpan.org/dist/%{upstream_name}
-Source0:        http://www.cpan.org/modules/by-module/IPC/IPC-Cmd-0.82.tar.gz
+Source0:        http://www.cpan.org/modules/by-module/IPC/IPC-Cmd-%{upstream_version}.tar.gz
 
 Buildrequires:  perl-devel
 Buildrequires:  perl(Module::Load::Conditional)
@@ -137,6 +137,7 @@ rm -rf %{buildroot}
 
 * Mon Apr 24 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.24-1mdk
 - first mdk release
+
 
 
 
