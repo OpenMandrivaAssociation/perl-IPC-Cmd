@@ -1,5 +1,5 @@
 %define upstream_name    IPC-Cmd
-%define upstream_version 0.84
+%define upstream_version 0.86
 Name:           perl-%{upstream_name}
 Version:        %perl_convert_version %{upstream_version}
 Release:        1
@@ -15,7 +15,6 @@ Buildrequires:  perl(Module::Load::Conditional)
 Buildrequires:  perl(version)
 
 Buildarch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 
 %description
 IPC::Cmd allows you to run commands, interactively if desired, platform
@@ -37,14 +36,11 @@ settings.
 %make test
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
 
 %clean 
-rm -rf %{buildroot}
 
 %files 
-%defattr(-,root,root)
 %doc README
 %{perl_vendorlib}/IPC
 %{_mandir}/*/*
@@ -137,6 +133,7 @@ rm -rf %{buildroot}
 
 * Mon Apr 24 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.24-1mdk
 - first mdk release
+
 
 
 
