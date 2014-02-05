@@ -1,5 +1,5 @@
 %define upstream_name    IPC-Cmd
-%define upstream_version 0.86
+%define upstream_version 0.92
 Name:           perl-%{upstream_name}
 Version:        %perl_convert_version %{upstream_version}
 Release:        1
@@ -133,6 +133,7 @@ settings.
 
 * Mon Apr 24 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.24-1mdk
 - first mdk release
+
 
 
 
