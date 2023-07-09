@@ -1,8 +1,0 @@
-removed_sources:
-  IPC-Cmd-0.64.tar.gz: 555c3a80290b5082e6b8ad2f3888407b74fa755b
-  IPC-Cmd-0.80.tar.gz: e2c2ec9dadbedf78a084fab30b69ac1404dc9c1c
-  IPC-Cmd-0.82.tar.gz: 7cf61d00eb98765a2f73d523789ec14387bc060d
-  IPC-Cmd-0.84.tar.gz: f5a38f123f4a6dbe71232e46950a9e6de8765b79
-  IPC-Cmd-0.86.tar.gz: 9f079a8a56bc3ce76f6c21fad505ba960f7d51bb
-sources:
-  IPC-Cmd-0.92.tar.gz: 9c849354c3e9c091af36bd4ddc460c08d331b3a7
